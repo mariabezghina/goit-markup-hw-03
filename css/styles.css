@@ -6,6 +6,20 @@ body {
   margin: 0;
 }
 
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
 ul {
   list-style: none;
   margin: 0;
@@ -17,6 +31,13 @@ a {
 }
 
 /* Header */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .web-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -30,6 +51,19 @@ a {
 
 .studio-text {
   color: #2e2f42;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .nav-link {
@@ -47,6 +81,10 @@ a {
 }
 
 .contact-list {
+  display: flex;
+  gap: 40px;
+  padding-left: 0;
+  margin: 0;
   font-style: normal;
 }
 
@@ -176,6 +214,8 @@ a {
 
 .project-item {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+  padding-bottom: 20px; /* optional */
 }
 
 .project-subtitle {
@@ -192,6 +232,17 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.card-list,
+.project-list,
+.features-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
 
 /* FOOTER */
 .page-footer {
