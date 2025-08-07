@@ -1,4 +1,9 @@
 /* Base styles */
+
+*,
+*::before,
+*::after{box-sizing: border-box}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -46,8 +51,6 @@ body, ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 
