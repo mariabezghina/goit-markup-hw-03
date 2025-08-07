@@ -73,6 +73,7 @@ body, ul{
 .nav {
   display: flex;
   align-items: center;
+  gap: 76px;
   justify-content: space-between;
 }
 
