@@ -42,22 +42,19 @@ a {
 
 
 /* Header */
-
-body, ul{
-  margin: 0;
-  padding: 0;
-}
-
-.header {
+.page-header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
 }
 
 .web-logo {
@@ -75,17 +72,10 @@ body, ul{
   color: #2e2f42;
 }
 
-.nav {
+.header-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.nav-list {
-  display: flex;
   gap: 40px;
-  padding-left: 0;
-  margin: 0;
 }
 
 .nav-link {
