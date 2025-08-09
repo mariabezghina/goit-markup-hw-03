@@ -230,6 +230,7 @@ img {
 /* SECTION 3 */
 .section-three {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .section-title {
@@ -239,10 +240,25 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.card-list {
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .card-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.card-content{
+  padding: 32px 0;
 }
 
 .card-title {
@@ -251,6 +267,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .card-text {
@@ -258,10 +276,23 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 
 /* SECTION 4 */
+
+.section-four{
+  padding:20px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .project-title{
   font-size: 36px;
   line-height: 1.11;
@@ -269,17 +300,27 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .project-list {
   list-style: none;
+  padding: 0;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .project-item {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
-  padding-bottom: 20px; /* optional */
+  width: calc((100% - 48px) / 3);
+}
+
+.project-card{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .project-subtitle {
@@ -288,6 +329,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .project-text {
@@ -312,9 +354,12 @@ img {
 .page-footer {
   background-color: #2e2f42;
   text-align: center;
+  padding: 100px 0;
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -330,8 +375,9 @@ img {
 }
 
 .footer-text {
+  max-width: 264px;
   line-height: 1.5;
   color: var(--footer-text-color, #f4f4fd);
   letter-spacing: 0.02em;
-  margin: 16px auto 0 auto;
+  margin: 0;
 }
