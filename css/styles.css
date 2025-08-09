@@ -192,6 +192,13 @@ img {
   list-style: none;
   margin-bottom: 8px;
   color: #2e2f42;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.features-item{
+  width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -202,6 +209,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  
 }
 
 .features-text {
