@@ -218,6 +218,7 @@ img {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;
+  width: calc((100% - 72px) / 3);
 
   font-size: 16px;
   line-height: 1.5;
