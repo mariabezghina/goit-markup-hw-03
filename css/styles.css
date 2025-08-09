@@ -155,8 +155,8 @@ img {
   margin: auto;
   padding: 16px 32px;
   height: 56px;
-  min-width: 69px;
-  background-color: #4d5ae5;
+  min-width: 169px;
+  background-color: var(--primary-accent, #4d5ae5);
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
