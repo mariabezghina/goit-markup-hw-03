@@ -305,7 +305,7 @@ img {
 
 .project-list {
   list-style: none;
-  padding: 0;
+  padding-left: 0;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -342,7 +342,6 @@ img {
 }
 
 .card-list,
-.project-list,
 .features-list {
   display: flex;
   gap: 24px;
