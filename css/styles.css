@@ -283,7 +283,7 @@ img {
 /* SECTION 4 */
 
 .section-four{
-  padding:20px 0;
+  padding:120px 0 120px 0;
 }
 
 .container {
@@ -311,10 +311,12 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+
 }
 
 .project-item {
   width: calc((100% - 48px) / 3);
+  
 }
 
 .project-card{
