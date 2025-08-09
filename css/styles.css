@@ -212,6 +212,13 @@ img {
 }
 
 .features-text {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
