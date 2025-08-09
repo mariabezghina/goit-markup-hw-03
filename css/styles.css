@@ -212,7 +212,7 @@ img {
 }
 
 .features-text {
-  display: block;
+  display: inline-block;
   unicode-bidi: isolate;
   width: calc((100% - 72px) / 3);
 
