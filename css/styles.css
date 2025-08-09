@@ -184,44 +184,37 @@ img {
 }
 
 .features-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.2em;
   list-style: none;
-  margin-bottom: 8px;
-  color: #2e2f42;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
 
-.features-item{
-  width: calc((100% - 72px)/4);
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-title {
   font-weight: 500;
   font-size: 20px;
-  text-align: center;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  
+  text-align: left;
 }
 
 .features-text {
-  display: inline-block;
-  unicode-bidi: isolate;
-  width: calc((100% - 72px) / 3);
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0;
+  text-align: left;
 }
+
 
 /* SECTION 3 */
 .section-three {
